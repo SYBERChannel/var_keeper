@@ -16,7 +16,7 @@ jobs:
           ./test/unit-tests.sh
 
   integration_testing:
-     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     container: python:3.10.9-slim
     services:
       db:
